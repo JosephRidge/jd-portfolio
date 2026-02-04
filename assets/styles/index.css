@@ -113,12 +113,12 @@ nav > div > h1 {
   height: 80vh;
 }
 
-#projectSection > .projects{
-    display: flex;  
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: var(--padding-horizontal);
-    padding-right: var(--padding-horizontal);
+#projectSection > .projects {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: var(--padding-horizontal);
+  padding-right: var(--padding-horizontal);
 }
 
 #projectSection > div > h1 {
@@ -167,7 +167,6 @@ nav > div > h1 {
   margin-top: 16px;
 }
 
-
 #projectSection > div > .card > button:hover {
   all: unset; /* clears off t default styling*/
   background-color: var(--secondary-color);
@@ -189,8 +188,28 @@ nav > div > h1 {
   margin-top: 16px;
 }
 
-#projectSection > div > .card >p{
-    font-size: 12px;
-    color: var(--secondary-color);
-    margin-top: 12px;
-} 
+#projectSection > div > .card > p {
+  font-size: 12px;
+  color: var(--secondary-color);
+  margin-top: 12px;
+}
+
+#contactSection {
+  padding-left: var(--padding-horizontal);
+  padding-right: var(--padding-horizontal);
+  height: 60vh;
+}
+
+#contactSection > form {
+  padding: 24px;
+  width: 60vw;
+  margin: auto;
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+}
+
+#contactSection > form > div { 
+  margin-top: 16px;
+}
+
+#contactSection >form > div { }
