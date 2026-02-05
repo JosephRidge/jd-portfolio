@@ -195,9 +195,13 @@ nav > div > h1 {
 }
 
 #contactSection {
+  height: 80vh; 
+  display: flex; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
   padding-left: var(--padding-horizontal);
   padding-right: var(--padding-horizontal);
-  height: 60vh;
 }
 
 #contactSection > form {
@@ -208,8 +212,122 @@ nav > div > h1 {
   border-radius: 30px;
 }
 
-#contactSection > form > div { 
-  margin-top: 16px;
+#contactSection > form > h1{
+  text-align:center;
+  font-size: 36px;
+  margin-top:30px;
+  margin-bottom: 30px; 
+  color: var(--primary-color);
 }
 
-#contactSection >form > div { }
+#contactSection > form > div > div {
+  margin-top: 16px;
+  padding-left: 12px;
+  padding-right: 12px; 
+}
+
+#contactSection > form >  .userMessage  {
+  margin-top: 16px;
+  padding-left: 12px;
+  padding-right: 12px; 
+}
+
+#contactSection > form > .userNameEmail, .userAgeBirthday{
+  display: flex;
+} 
+
+#contactSection > form > .userNameEmail, .userAgeBirthday> div> label {
+  font-weight: 500;   
+  color: var(--primary-color);
+}
+
+#contactSection > form > .userNameEmail> div > input {
+  all: unset;
+  border-radius: 12px;
+  width: 25vw;
+  background-color:white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 8px;
+  height: 30px;
+  font-size: 12px;
+  color: gray;
+}
+
+#contactSection > form > .userAgeBirthday> div > input {
+  all: unset;
+  border-radius: 12px;
+  width: 25vw;
+  background-color:white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 8px;
+  height: 30px;
+  font-size: 12px;
+  color: gray;
+}
+
+#contactSection > form > div> label {
+  font-weight: 500;   
+  color: var(--primary-color);
+}
+
+#contactSection > form > div > textarea {
+  all: unset;
+  background-color: white;
+  border-radius: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 12px;
+  color: gray;
+}
+
+#contactSection >form >div>  input{
+  all: unset; /* clears off t default styling*/
+  background-color: var(--primary-color);
+  color: #fff;
+  width: 80%; 
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50px;
+  transition: 1s;
+  border: solid 2px var(--secondary-color);
+}
+
+
+#contactSection > form > div> input:hover {
+  all: unset; /* clears off t default styling*/
+  background-color: white;
+  color: var(--primary-color);
+  width: 80%; 
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50px;
+  transition: 1s;
+  border: solid 2px var(--primary-color);
+}

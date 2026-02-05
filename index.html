@@ -96,41 +96,56 @@
     </section>
 
     <!-- Contact Section  -->
-     <section id="contactSection">
-    <!-- contact form -->
-    <form action="">
-        <!--  user names -->
-        <div>
-            <label for="userName">Name</label>
-            <input type="text" placeholder="e.g John Doe ..." name="userName">
-        </div>
+    <section id="contactSection">
+        <!-- contact form -->
+        <form action="">
+            <h1>Contact Me </h1>
+            <hr>
+            <br>
+            <div class="userNameEmail">
 
-        <!-- user email -->
-        <div>
-            <label for="userEmail">Email:</label>
-            <input type="email" placeholder="eg myexample@example.com ..." name="userEmail">
-        </div>
+                <!--  user name -->
+                <div>
+                    <label for="userName">Name</label> <br>
+                    <input type="text" placeholder="e.g John Doe ..." name="userName">
+                </div>
+                <!-- user email -->
+                <div>
+                    <label for="userEmail">Email:</label> <br>
+                    <input type="email" placeholder="eg myexample@example.com ..." name="userEmail">
+                </div>
+            </div>
+ 
+            <div class="userAgeBirthday">
+    
+            <!-- user age -->
+            <div>
+                <label for="userAge">Age: </label> <br>
+                <input type="number" placeholder="0" name="userAge">
+            </div>
 
-        <!-- user age -->
-        <div>
-            <label for="userAge">Age: </label>
-            <input type="number" placeholder="0" name="userAge">
-        </div>
+            <!-- user Birthday -->
+            <div>
+                <label for="userDOB">Your Birthday: </label> <br>
+                <input type="date" name="userDOB">
+            </div>
+            </div>
+            <!-- user file input  -->
+            <!-- <div>
+                <label for="userFile">Upload File: </label> <br>
+                <input type="file" name="userFile">
+            </div> -->
 
-        <!-- user Birthday -->
-        <div>
-            <label for="userDOB">Your Birthday: </label>
-            <input type="date" name="userDOB">
-        </div>
+            <!-- user message -->
+            <div class="userMessage">
+                <label for="userMessage">Message: </label> <br>
+                <textarea name="userMessage"></textarea>
+            </div>
 
-        <!-- user file input  -->
-        <div>
-            <label for="userFile">Upload File: </label>
-            <input type="file" name="userFile">
-        </div>
-
-    </form>
-</section>
+            <div><input type="button" value="submit"></div>
+            
+        </form>
+    </section>
     <div style="margin: 100px;"></div>
 
 </body>
